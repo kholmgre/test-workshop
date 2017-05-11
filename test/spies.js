@@ -1,7 +1,11 @@
 import { assert } from 'chai';
 import { Router } from '../src/router';
 
-// In this exercise, write two tests that uses spies to verify the correct function was called and that it was called with the correct argument
+/**
+ * In this module we will look at spies and how they can help us verify if a method has been called and with what arguments. What setup needs to be done
+ * to verify if a function has been called and how do we assert it?
+ */
+
 describe('router', function () {
     it('should call the success function if it is in success state', function () {
         // Arrange
