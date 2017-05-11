@@ -1,0 +1,36 @@
+{
+  "name": "test-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w",
+    "test" : "karma start karma.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "karma": "^1.7.0",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-sinon": "^1.0.5",
+    "karma-webpack": "^2.0.3",
+    "mocha": "^3.3.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "sinon": "^2.2.0",
+    "webpack": "^2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kholmgre/test-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kholmgre/test-workshop/issues"
+  },
+  "homepage": "https://github.com/kholmgre/test-workshop#readme"
+}
